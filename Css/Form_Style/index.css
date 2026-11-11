@@ -1,0 +1,148 @@
+
+/* Background */
+body {
+    background-image: url("https://i.pinimg.com/1200x/2d/ad/c3/2dadc3c08dd0602b781b8f1c41578b26.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Form */
+.form {
+    width: 400px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 50px;
+    margin: 90px auto;
+    background-color: #bdbabaa8;
+}
+
+/* Login Title */
+.login-text {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(4, 31, 113);
+}
+
+/* Subtitle */
+.Sub-title {
+    text-align: center;
+    color: rgb(4, 44, 45);
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, serif;
+}
+
+
+.label-input {
+    color: rgb(44, 0, 1);
+    font-size: 20px;
+}
+
+.input-form {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 3px inset;
+    color: rgb(88, 92, 85);
+    font-size: 13px;
+    font-style: italic;
+}
+
+.input-form:focus {
+    color: rgb(116, 105, 107);
+    outline: none;
+}
+
+
+.remenber {
+    font-size: 18px;
+}
+
+
+.or {
+    font-size: 23px;
+    text-align: center;
+    color: rgb(68, 65, 65);
+}
+
+
+.google-btn,
+.facebook-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    width: 100%;
+    padding: 12px;
+
+    margin-bottom: 15px;
+
+    border: none;
+    border-radius: 30px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+/* Google Button */
+.google-btn {
+    
+    background-color: white;
+    color: black;
+}
+
+.google-btn:hover {
+    background-color: #eeeeee;
+}
+
+/* Facebook Button */
+.facebook-btn {
+    background-color: #2339e2c0;
+    color: white;
+}
+
+.facebook-btn:hover {
+    background-color: #0d65d9;
+}
+
+
+.google-logo,
+.facebook-logo {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 550px) {
+    .form {
+        width: auto;
+        margin: 30px 15px;
+        padding: 25px;
+    }
+    .input-form {
+        width: 90%;
+    }
+}
+.login-btn {
+    display: block;
+    width: 60%;
+    padding: 12px;
+    margin: 20px auto;
+
+    background-color: rgb(4, 31, 113);
+    color: white;
+
+    border: none;
+    border-radius: 25px;
+
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
